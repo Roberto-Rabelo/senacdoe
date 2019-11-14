@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>DOE+</title>
+</head>
+
+<body>
+  
+
+
+  <nav class="navbar  navbar-expand-lg navbar-light mb-9">
+
+    <a class="navbar-brand" href="#">
+      <img src="projetoimg/core-sl.png" width="100px" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse mt-2 mt-lg-0" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projeto</a>
+          <!-- 
+                   Como projeto nasceu 
+                   
+                   QUal necessidade
+
+                   por que? mostrar dados 
+
+                   unificação do bancos de sangue
+
+                -->
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Mapas</a>
+        </li>
+        <li class="nav-item dropdown ">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Como funciona</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item">Posso ser doador</a>
+            <a class="dropdown-item">Para aonde meu sangue vai</a>
+            <a class="dropdown-item">Quais pessoa seu ajudo</a>
+            <a class="dropdown-item">Depoimentos</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            Ser voluntario
+            <img src="projetoimg/doe-final.png" width="30" height="30" class=" align-center" alt="">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Loja</a>
+        </li>
+      </ul>
+      <div class="navbar-nav ml-auto">
+        <form class="form-inline">
+         
+          <button class="btn btn-default" type="submit">OK</button>
+        </form>
+      </div>
+    </div>
+
+  </nav>
+  <br>
+  
+  <!-- JUMBOTRON -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 ">
+        <div class="jumbotron">
+          <h1 class="text-center display-4" style="color: red;">Projeto</h1>
+          <hr>
+          <div class="row">
+            <div class="col-12 ">
+              <ul class="nav nav-pills justify-content-center" id="pills-nav" role="tablist">
+                <li nav-item>
+                  <a class="nav-link active" id="nav-pills-01" data-toggle="pill" href="#nav-item-01">Como projeto
+                    nasceu</a>
+                </li>
+                <li nav-item>
+                  <a class="nav-link" id="nav-pills-02" data-toggle="pill" href="#nav-item-02">Nossa necessidade
+                    atual</a>
+                </li>
+                <li nav-item>
+                  <a class="nav-link" id="nav-pills-03" data-toggle="pill" href="#nav-item-03">Dados</a>
+                </li>
+
+              </ul>
+
+              <div class="tab-content" id="nav-pills-content">
+
+                <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+                  <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                      <p>
+                        projeto nasceu com da necessidade de levar informação sobre sobre esse ato de solidariedade
+                        que é ser um doador de sangue, visando consientizar a população da importancia dessa atividade
+                        simples mas com pode gigantesco
+                      </p>
+                    </div>
+
+                    <div class="col-md-6">
+                      <img src="projetoimg/doe-final.png" alt="">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane fade  " id="nav-item-02" role="tabpanel">
+                  <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                      <p>teste02</p>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade  " id="nav-item-03" role="tabpanel">
+                  <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                      <p>teste03</p>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- MODAL -->
+        <div class="modal fade" id='modalsite' tabindex="-1" role="dialog">
+          <div class="modal-dialog" role='document' style="background-color:white;">
+            <div class="modal-header text-center">
+
+              <div class="modal-title w-100 ">
+                <h5>Formulario</h5>
+                <button type="button" class="close" data-dismiss="modal">
+                  <span> X </span>
+                </button>
+              </div>
+
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12 col-md-10">
+                    <form>
+                      <div class="form-row">
+                        <label for="inputNome"> Seu Nome</label>
+                        <input type="text" class="form-control" name="nome" id="inputNome"
+                          placeholder="DIGITE SEU NOME">
+                      </div>
+                      <div class="form-row">
+                        <label for="inputNome">CEP</label>
+                        <input type="text" class="form-control" name="nome" id="inputNome" placeholder="2307-3580">
+                      </div>
+                    </form>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-10 ">
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="modal-footer">
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

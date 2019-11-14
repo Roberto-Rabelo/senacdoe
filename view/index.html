@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- MAPBOX CSS -->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/fontawesome/css/all.css">
+  <title>DOE+</title>
+</head>
+
+<body>
+    <div class="row rowtam">
+        <div class="col-md-2 justify-content-center">
+            <a class="navbar-brand  ml-4"  href="#">
+                <img src="../projetoimg/core-sl.png"  width="100px" alt="">
+              </a>
+        </div>
+        
+        <div class="col-md-6 barra-pesquisa">
+            <input class="form-control barratam" type="search" placeholder="Buscar.." id="">
+
+        </div>
+        <div class="col-md-1 teste ">
+            <button type="button" class="btn btn-info justify-content-center btn-pesquisa" style="background-color: red ;"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="col-md-3 barra-pesquisa icon">
+            <i class="fas fa-user" style="color: red;"></i> Login
+            <i class="fas fa-cart-plus" style="color: red;" ></i>  Carrinho
+            
+            </div>
+      </div>
+      <hr style="background-color: red;">
+  <nav class="navbar  navbar-expand-lg navbar-light mb-9" style="background-color:#FFFFFF">
+    
+    <div class="collapse justify-content-center navbar-collapse mt-2 mt-lg " id="navbarNav">
+      <ul class="navbar-nav ">
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projeto</a>
+         
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Mapas</a>
+        </li>
+        <li class="nav-item dropdown ">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Como funciona</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item">Posso ser doador</a>
+            <a class="dropdown-item">Para aonde meu sangue vai</a>
+            <a class="dropdown-item">Quais pessoa seu ajudo</a>
+            <a class="dropdown-item">Depoimentos</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            Ser voluntario
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Loja</a>
+        </li>
+      </ul>
+      
+    </div>
+
+  </nav>
+  <hr style="background-color: red;">
+
+  <nav class="navbar  navbar-expand-lg navbar-light mb-9" style="background-color:#FFFFFF">
+    
+      <div class="collapse justify-content-center navbar-collapse mt-2 mb-2 mt-lg " id="navbarNav">
+        <ul class="navbar-nav ">
+          <li class="nav-item ">
+            <a class="nav-link" href="#"><i class="fas fa-tshirt"></i> Roupa</a>
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-gamepad"></i> Brinquedos</a>
+           
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-sticky-note"></i> Adesivos</a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Acessorios</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item">Brinco</a>
+              <a class="dropdown-item">Colar</a>
+              <a class="dropdown-item">Bandana</a>
+              <a class="dropdown-item">Munhequeira</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-laptop-code"></i>
+              Informatica
+            </a>
+          </li>
+          
+        </ul>
+        
+      </div>
+  
+    </nav>
+  <!-- CARROSEL  -->
+  <div class="bd-example">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item slide1 active">
+          <img class="carousel-img" src="../projetoimg/DOE+.png" alt="first slide">
+          <div>
+            <h5 style=" color:#FFFFFF ;">POSSO SER UM DOADOR?</h5>
+          </div>
+          <div><a class="btn  btn-primary" href="como-funciona.html" role="button"
+              style="background-color:#FFFFFF; color: red;">Saiba Mais</a></div>
+        </div>
+        <div class="carousel-item slide1">
+          <img src="../projetoimg/slide2-1.png" class="" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+           
+          </div>
+        </div>
+        <div class="carousel-item slide1">
+          <img src="..." class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <!-- FIM CARROUSEL -->
+
+  <!-- INICIO CARD PRODUTOS -->
+  <div class="container" >
+    <div class="row mt-3">
+      <div class="col-sm-3 mb-3">
+          <div class="card h-100 ">
+              <a href="#"><img class="card-img-top" src="../projetoimg/camisa-branca.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#"></a>
+                </h4>
+                <h5>$24.99</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+      </div>
+      <div class="col-sm-3 mb-3">
+          <div class="card h-100 mb-3">
+              <a href="#"><img class="card-img-top" src="../projetoimg/camisa-branca.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#"></a>
+                </h4>
+                <h5>$24.99</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+      </div>
+      <div class="col-sm-3 mr-6 mb-3">
+          <div class="card h-100 mb-3">
+              <a href="#"><img class="card-img-top" src="../projetoimg/bone.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#"></a>
+                </h4>
+                <h5>$24.99</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+    </div>
+    <div class="col-sm-3 mb-3">
+        <div class="card h-100 mb-3">
+            <a href="#"><img class="card-img-top" src="../projetoimg/pulseira.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#"></a>
+              </h4>
+              <h5>$24.99</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+            </div>
+          </div>
+    </div>
+  </div>
+  </div>
+    <!-- FIM CARD PRODUTOS -->
+
+
+
+
+
+  <!-- INICIO JUMBOTRON "IMPORTANCIA DE DOAR SANGUE" -->
+  <div class="jumbotron">
+    <h1 class="display-9  " style="color:red">POR QUE SER UM DOADOR?</h1>
+    <p class="lead">Beneficios de ser um doador</p>
+    <hr class="my-4">
+    <div class="list-group">
+      <a href="#" class="list-group-item list-group-item-action active">
+        Cras justo odio
+      </a>
+      <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+      <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+      <a href="#" class="list-group-item list-group-item-action">Exame de Sangue</a>
+      <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+    </div>
+    <div>
+
+    </div>
+  </div>
+  <!-- FIM JUMBOTRON "IMPORTANCIA DE DOAR SANGUE" -->
+
+
+
+
+  <!-- JUMBOTRON -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 ">
+        <div class="jumbotron">
+          <h1 class="text-center display-4" style="color: red;">Projeto</h1>
+          <hr>
+          <div class="row">
+            <div class="col-12 ">
+              <ul class="nav nav-pills justify-content-center" id="pills-nav" role="tablist">
+                <li nav-item>
+                  <a class="nav-link active" id="nav-pills-01" data-toggle="pill" href="#nav-item-01">Como projeto
+                    nasceu</a>
+                </li>
+                <li nav-item>
+                  <a class="nav-link" id="nav-pills-02" data-toggle="pill" href="#nav-item-02">Nossa necessidade
+                    atual</a>
+                </li>
+                <li nav-item>
+                  <a class="nav-link" id="nav-pills-03" data-toggle="pill" href="#nav-item-03">Dados</a>
+                </li>
+
+              </ul>
+
+              <div class="tab-content" id="nav-pills-content">
+
+                <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+                  <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                      <p>
+                        projeto nasceu com da necessidade de levar informação sobre sobre esse ato de solidariedade
+                        que é ser um doador de sangue, visando consientizar a população da importancia dessa atividade
+                        simples mas com pode gigantesco
+                      </p>
+                    </div>
+
+                    <div class="col-md-6">
+                      <img src="projetoimg/doe-final.png" alt="">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane fade  " id="nav-item-02" role="tabpanel">
+                  <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                      <p>teste02</p>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade  " id="nav-item-03" role="tabpanel">
+                  <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                      <p>teste03</p>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- INICIO MAPBOX -->
+      <div class="container">
+        <div class="mapbox" id='map' style='width: 340px; height: 300px;'>
+          <script>
+            mapboxgl.accessToken = 'pk.eyJ1Ijoicm9iZXJ0by1qdW5pb3I5OSIsImEiOiJjazJuN212YTkwMXB5M2JuejI4cTQ0MTd2In0.hXajmx4S4Ev9eaeJPKeSeA';
+            var map = new mapboxgl.Map({
+              container: 'map',
+              style: 'mapbox://styles/mapbox/streets-v11'
+            });
+          </script>
+        </div>
+      </div>
+      <!-- FIM MAPBOX -->
+
+      <!-- INICIO FOOTER -->
+      <!-- Footer -->
+      <footer class="page-footer font-small blue pt-4">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+
+          <!-- Grid row -->
+          <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3">
+
+              <!-- Content -->
+              <h5 class="text-uppercase">DOE+</h5>
+              <p>Here you can use rows and columns to organize your footer content.</p>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none pb-3">
+
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+
+              <!-- Links -->
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!">Link 4</a>
+                </li>
+              </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+
+          </div>
+          <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+          <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+
+      </footer>
+      <!-- Footer -->
+
+      <!-- FIM FOOTER -->
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
